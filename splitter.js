@@ -6,7 +6,6 @@ bonus points if you never use `.toString()`.
 buffers have a `.slice` method that can be used to grab a sub-selection as a view (no memcpy).
 extra bonus points if you avoid using fs.readFileSync.
 */
-
 var fs = require('fs');
 fs.readFile(process.argv[2], function(err, data) {
   if(err) throw err;
