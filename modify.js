@@ -14,5 +14,4 @@ process.stdin.on('data', function(buf) {
     process.stdout.write(String.fromCharCode(buf[i]))
   }
 });
-
 // i like javascript :P
