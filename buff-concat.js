@@ -17,14 +17,13 @@ Bonus points if you use a stream!
 Hint: Buffer.concat(list, [totalLength])
 */
 
-var list = [],
-		size = 0;
+var list = [], size = 0;
 
 process.stdin.on('data', function(data) {
-	list.push(data);
-	size += data.length;
+  list.push(data);
+  size += data.length;
 });
 
 process.stdin.on('end', function() {
-	console.log(Buffer.concat(list, size));
+  console.log(Buffer.concat(list, size));
 });
