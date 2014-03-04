@@ -1,6 +1,7 @@
 /*
 the argument given to you from `process.argv[2]` will be a path to a file.
-ead this file and split it by newline characters ('\n'). You should log one Buffer per line.
+ead this file and split it by newline characters ('\n'). 
+you should log one Buffer per line.
 bonus points if you never use `.toString()`.
 buffers have a `.slice` method that can be used to grab a sub-selection as a view (no memcpy).
 extra bonus points if you avoid using fs.readFileSync.
