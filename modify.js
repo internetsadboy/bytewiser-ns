@@ -5,14 +5,14 @@ bonus points if you never call `.toString()` on your buffer!
 */
 
 process.stdin.on('data', function(buf) {
-	for(var i = 0; i < buf.length; i++) {
-		if(buf[i] === 46) {
-			buf[i] = 33;
-		}
-	}
+  for(var i = 0; i < buf.length; i++) {
+    if(buf[i] === 46) {
+      buf[i] = 33;
+    }
+  }
   for(var i = 0; i < buf.length; i++) {
     process.stdout.write(String.fromCharCode(buf[i]))
   }
 });
 
-// i like javascript
+// i like javascript :P
