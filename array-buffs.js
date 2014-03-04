@@ -1,11 +1,8 @@
 /*
- statement:
  For this challenge, take the integer from process.argv[2] and write it as the first
  element in a single element Uint32Array. Then create a Uint16Array from the Array
  Buffer of the Uint32Array and log out to the console the JSON stringified version
  of the Uint16Array.
- 
- hints:
  http://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays
 */
 
