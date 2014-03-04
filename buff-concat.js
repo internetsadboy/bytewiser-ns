@@ -1,5 +1,5 @@
 /*
-Write a program that combines all of the buffers from `process.stdin`
+write a program that combines all of the buffers from `process.stdin`
 and then writes the single big buffer out to the console.
 */
 
